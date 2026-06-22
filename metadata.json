@@ -1,0 +1,6 @@
+{
+  "name": "GeoCapture Pro",
+  "description": "Enterprise Geospatial Intelligence App for complete digital field inspections and data validation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer precision target circle -->
+    <path
+        android:strokeColor="#76D6D5"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,24 A 30,30 0 1,1 53.99,24 Z" />
+
+    <!-- Inner precision circle -->
+    <path
+        android:strokeColor="#4EDEA3"
+        android:strokeWidth="1"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 54,34 A 20,20 0 1,1 53.99,34 Z" />
+
+    <!-- Center solid target core -->
+    <path
+        android:fillColor="#B9C7E4"
+        android:pathData="M 54,44 A 10,10 0 1,1 53.99,44 Z" />
+
+    <!-- Crosshair - Top vertical marker -->
+    <path
+        android:strokeColor="#76D6D5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,14 L 54,28" />
+
+    <!-- Crosshair - Bottom vertical marker -->
+    <path
+        android:strokeColor="#76D6D5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,80 L 54,94" />
+
+    <!-- Crosshair - Left horizontal marker -->
+    <path
+        android:strokeColor="#76D6D5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 14,54 L 28,54" />
+
+    <!-- Crosshair - Right horizontal marker -->
+    <path
+        android:strokeColor="#76D6D5"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 80,54 L 94,54" />
+
+    <!-- North indicator triangle -->
+    <path
+        android:fillColor="#4EDEA3"
+        android:pathData="M 54,18 L 50,26 L 58,26 Z" />
+</vector>
